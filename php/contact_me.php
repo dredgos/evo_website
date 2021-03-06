@@ -16,7 +16,7 @@ $phone = $_POST['phone'];
 $message = $_POST['message'];
 
 // Create the email and send the message
-$to = 'RemovedEmailForStackOverflow@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+$to = 'lardarse7@hotmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 
 $email_subject = "A guest has messaged yourname:  $name";
 

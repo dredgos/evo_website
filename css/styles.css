@@ -54,6 +54,23 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+/* Terms Custom Styling */
+.terms_list {
+  counter-reset: item;
+  text-align: left;
+}
+.terms_list_item {
+  display: block;
+  position: relative;
+}
+.terms_list_item:before {
+  content: counters(item, ".")".";
+  counter-increment: item;
+  position: absolute;
+  margin-right: 100%;
+  right: 10px; /* space between number and text */
+}
+
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
